@@ -45,7 +45,7 @@ hr{
     border-style: none;
     border-top-style: dotted;
     width: 7.5%;
-    border-width: .5rem;
+    border-width: .3rem;
     color: rgb(147, 153, 153);
 }
 
@@ -53,10 +53,10 @@ hr{
 .top-container {
     background-color: #e4f9f5;
     position: relative;
-    padding-top: 100px;
+    padding-top: 5rem;
 }
 .aboutme {
-    width: 500px;
+    width: 50%;
     margin: auto;
 }
 
@@ -74,7 +74,7 @@ hr{
 .copyright{
     color: #EAF6F6;
     font-size: .75rem;
-    padding: 20px auto;
+    padding: 1.1rem auto;
    
 }
 .sources{
@@ -88,7 +88,7 @@ hr{
 }
 
 .skill-row {
-    margin: 0px auto 100px auto;
+    margin: 0px auto 5.625rem auto;
     width: 50%;
     text-align: left;
     line-height: 2;
@@ -96,14 +96,14 @@ hr{
 
 .footer-link{
     font-weight: bold;
-    padding-top: 10px;
+    padding-top: .75rem;
 }
 
 .middle-container{
-    padding-bottom: 50px;
+    padding-bottom: 3rem;
 }
 .bottom-container{
-    padding-top: 30px;
+    padding-top: 2rem;
     background-color: #66BFBF;
     
 }
@@ -152,41 +152,44 @@ background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
 
 /*images */
 .bottom-cloud {
-    position: absolute;
-    left: 10%;
-    bottom: 300px;
-    height: 200px;
-    width: 200px;
+    float: left;
+    margin-left: 10rem;
+    height: 15%;
+    width: 10%;
 }
 
 .top-cloud {
-    position: absolute;
-    right: 10%;
-    top: 20%;   
-    height: 200px;
-    width: 200px;
+    float: right;
+    margin-right: 10rem;
+    height: 15%;
+    width: 10%;
 }
 
 .haider-image{
-    padding-top: 30px;
-    height: 400px;
-    width: 400px;
+    padding-top: 3rem;
+    height: 30%;
+    width: 30%;
 }
 
 .Kebab-pic{
     width: 20%;
     float: right;
-    margin-right: 60px;
+    margin-left: 2rem;
 }
 
 .coding-gif{
  width: 25%;
  float: left;
- margin-right: 30px;
+ margin-right: 2rem;
 }
 
 .linkedin-img{
     padding-right: 5px;
+}
+
+.toronto-img{
+    height: 35%;
+    width: 35%;
 }
 
 /*id css */
